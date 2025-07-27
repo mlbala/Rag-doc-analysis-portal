@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-doc-analysis-portal"
+version = "0.1.0"
+description = "Document analysis portal with LLM-based RAG"
+authors = [
+  {name = "Balakrishnan", email = "your.email@example.com"}
+]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+dynamic = ["dependencies"]
+
+[project.urls]
+Homepage = "https://github.com/mlbala/Rag-doc-analysis-portal"
+Repository = "https://github.com/mlbala/Rag-doc-analysis-portal"
